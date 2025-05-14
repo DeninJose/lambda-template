@@ -33,7 +33,7 @@ def lambda_handler(event, _):
     print("Received event:", event)
 
 
-    # Process the event
+    # Process the events
     response = {
         "statusCode": 200,
         "body": "Hello from Lambda!"
